@@ -3,7 +3,9 @@ import '@/app/globals.css'
 import Navbar from '@/components/Navbar'
 
 const font = Gabarito({
-  subsets: ['latin']
+  subsets: ['latin'],
+  display: 'swap',
+  adjustFontFallback: false
 })
 
 export const metadata = {
