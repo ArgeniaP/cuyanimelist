@@ -1,4 +1,4 @@
-import { getAnimeResponse } from "@/app/libs/apiLibs"
+import { getAnimeResponse } from "@/libs/apiLibs"
 import VideoPlayer from "@/components/utilities/VideoPlayer"
 import Image from "next/image"
 
